@@ -21,8 +21,13 @@ class ViewController: UIViewController {
         
         
         // MARK: - اكتب ال if statement الكود تحت
-        
-        
+        if animal == "cat" {
+            emojiArray.append("😸")
+        } else if animal  == "dog" {
+            emojiArray.append("🐶")
+        } else if animal  == "lion"{
+            emojiArray.append("🦁")
+        }
         // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
         animalTextField.text = ""
     }
